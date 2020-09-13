@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
+import './styles/main.css';
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <p>Lets Build WhatsApp</p>
+    <div className="app">
+      <div className="app__body">
+        <Sidebar/>
+      </div>
     </div>
   );
 }
